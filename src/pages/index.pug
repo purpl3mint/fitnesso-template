@@ -1,0 +1,249 @@
+extends common/layout
+
+block content 
+    main.main 
+        .coach
+            .wrapper
+                .coach__photo
+                    h1.coach__title Sandra Lyons
+                    img(src="./img/sandralyons.webp" width="659" height="700" alt="Sandra Lyons").coach__photo
+                .coach__content 
+                    span.coach__greetings 
+                        |    Hi i'm Sandra Lyons
+                    span.coach__attention
+                        |   Your go to online fitness trainer and nutritionist.
+                    span.coach__info 
+                        |   After getting a bachelors in nutrition and fitness training 
+                        |   I started working with people all around and changing 
+                        |   their lives forever.
+                    a(href="#").button.coach__button 
+                        |   ONLINE COACHING
+        .coach-stats
+            .wrapper
+                .coach-stat 
+                    span.coach-stat__big 1900+
+                    span.coach-stat__small happy clients
+                .coach-stat 
+                    span.coach-stat__big 5 yrs
+                    span.coach-stat__small of experience
+                .coach-stat 
+                    span.coach-stat__big 156K
+                    span.coach-stat__small following me
+        .advantages 
+            .wrapper 
+                h1.advantages__title
+                    |   The journey to a healthier 
+                    |   body starts right now
+                a(href="#").advantages__button.button 
+                    |   ONLINE COACHING
+                .advantages__content 
+                    .advantage-card 
+                        img(src="./img/advantage-1.webp" width="300" height="300" alt="Image of jumping woman").advantage-card__image
+                        h2.advantage-card__title 
+                            |   Learn to live a healthy 
+                            |   life with fitness
+                        span.advantage-card__description 
+                            |   Changing your lifestyle with a fast paced life may seem 
+                            |   hard or impossible, but with small steps each week you 
+                            |   can achieve your dream physique and live a healthier 
+                            |   life.
+                    .advantage-card 
+                        img(src="./img/advantage-2.webp" width="300" height="300" alt="Image of man and big wheel").advantage-card__image
+                        h2.advantage-card__title 
+                            |   Understand how to do 
+                            |   excercises properly
+                        span.advantage-card__description 
+                            |   Just going to the gym and lifting weights won't make 
+                            |   you healthy, after all it may even cause some harm to 
+                            |   your body. We teach proper exercise techniques
+                    .advantage-card 
+                        img(src="./img/advantage-3.webp" width="300" height="300" alt="Image of man and bottle").advantage-card__image
+                        h2.advantage-card__title 
+                            |   Track your 
+                            |   progress weekly
+                        span.advantage-card__description 
+                            |   We're tracking your goal weight with body fat measures, 
+                            |   weight and general feeling. You may have the same 
+                            |   body weight but feel 10x better.
+                    .advantage-card 
+                        img(src="./img/benefit.webp" width="300" height="300" alt="Image of woman and timer").advantage-card__image
+                        h2.advantage-card__title 
+                            |   Follow a specific plan 
+                            |   made just for you
+                        span.advantage-card__description 
+                            |   Everyone is different, and we know it. That's why all of 
+                            |   our clients get a programme specific just for their 
+                            |   lifestyle and body tipe. This give the best possible 
+                            |   results.
+        .free-plans 
+            .wrapper
+                h1.free-plans__title 
+                    |   Free home workouts 
+                    |   and fitness plans
+                span.free-plans__description 
+                    |   With free online classes people who don’t have the time or money 
+                    |   to afford a personal coach can make change their lives forever.
+                a(href="#").button.free-plans__button
+                .plan-cards 
+                    .plan-card 
+                        img(src="./img/freeplan-1.webp" width="421" height="400" alt="Image of woman and leafs").plan-card__image
+                        .plan-card__top-part 
+                            span.plan-card__time 
+                                |   30 minutes 
+                            .plan-card__costs
+                                span.plan-card__cost 
+                                    |   Free
+                                span.plan-card__grey-cost
+                                    |   
+                        h2.plan-card__title
+                            |   The Perfect Outdoor Workout
+                        a(href="#").plan-card__link
+                            |   Train now
+                    .plan-card 
+                        img(src="./img/freeplan-2.webp" width="421" height="400" alt="Image of man and rope").plan-card__image
+                        .plan-card__top-part 
+                            span.plan-card__time 
+                                |   1 hour
+                            .plan-card__costs
+                                span.plan-card__cost 
+                                    |   Free
+                                span.plan-card__grey-cost
+                                    |   
+                        h2.plan-card__title
+                            |   Back Day
+                        a(href="#").plan-card__link
+                            |   Train now
+                    .plan-card 
+                        img(src="./img/freeplan-3.webp" width="421" height="400" alt="Image of woman and mirror").plan-card__image
+                        .plan-card__top-part 
+                            span.plan-card__time 
+                                |   40 minutes 
+                            .plan-card__costs
+                                span.plan-card__cost 
+                                    |   Free
+                                span.plan-card__grey-cost
+                                    |   
+                        h2.plan-card__title
+                            |   The Ultimate Abs Tabata
+                        a(href="#").plan-card__link
+                            |   Train now
+        .paid-plans 
+            .wrapper 
+                h1.paid-plans__title 
+                    |   Free home workouts 
+                    |   and fitness plans
+                span.paid-plans__description 
+                    |   I’ve created these premium fitness classes for everyone starting 
+                    |   from beginner to advanced level with an in depth FAQ.
+                .plan-cards 
+                    .plan-card 
+                        img(src="./img/paidplan-1.webp" width="421" height="400" alt="Image of jumping woman").plan-card__image
+                        .plan-card__top-part 
+                            span.plan-card__time 
+                                |   3 days a week
+                            .plan-card__costs
+                                span.plan-card__cost 
+                                    |   $ 19.99 USD
+                                span.plan-card__grey-cost
+                                    |   
+                        h2.plan-card__title
+                            |   Home Burn
+                        a(href="#").plan-card__link
+                            |   View
+                    .plan-card 
+                        img(src="./img/paidplan-2.webp" width="421" height="400" alt="Image of training man").plan-card__image
+                        .plan-card__top-part 
+                            span.plan-card__time 
+                                |   30 days
+                            .plan-card__costs
+                                span.plan-card__cost 
+                                    |   $ 29.99 USD
+                                span.plan-card__grey-cost
+                                    |   
+                        h2.plan-card__title
+                            |   Shedded Meal Plan
+                        a(href="#").plan-card__link
+                            |   View
+                    .plan-card 
+                        img(src="./img/paidplan-3.webp" width="421" height="400" alt="Image of training men").plan-card__image
+                        .plan-card__top-part 
+                            span.plan-card__time 
+                                |   7 Days a Week 
+                            .plan-card__costs
+                                span.plan-card__cost 
+                                    |   $ 89.99 USD 
+                                span.plan-card__grey-cost
+                                    |   $ 129.99 USD
+                        h2.plan-card__title
+                            |   The Ultimate Abs Tabata
+                        a(href="#").plan-card__link
+                            |   Train now
+        .slogan 
+            .wrapper 
+                h1.slogan__content
+                    |   SWEAT. GAIN. DO.
+        .benefit 
+            .wrapper 
+                .benefit__content
+                    h1.benefit__title 
+                        |   Who can benefit 
+                        |   from a fully custom 
+                        |   online fitness plan 
+                        |   and nutrition?
+                    p.benefit__description 
+                        |   Literally everyone. I’m currently helping people from 12 
+                        |   to 60+ years old. Everyone is getting an adjusted 
+                        |   program and a meal plan.
+                    a(href="tel:+10000000000").button.benefit__button
+                        |   Book a call
+                .benefit__image
+                    img(src="./img/benefit.webp" width="507" height="500" alt="Image of woman and timer")
+        .water
+        .tips
+            .wrapper 
+                h1.tips__title 
+                    |   Read our tips and tricks
+                p.tips__description
+                    |   We post a lot of free content around health fitness and general wellbeing. Make sure to 
+                    |   check all of our posts down below.
+                a(href="#").button.tips__button
+                    |   view all posts
+                .tips-posts
+                    .tips-post 
+                        a(href="#").tips__link
+                            img(src="./img/tips-1.webp" width="423" height="600" alt="Image of trainig man")
+                    .tips-post 
+                        a(href="#").tips__link
+                            img(src="./img/tips-2.webp" width="423" height="600" alt="Image of boiled eggs")
+                    .tips-post 
+                        a(href="#").tips__link
+                            img(src="./img/tips-3.webp" width="423" height="600" alt="Image of woman and leafs")
+        .following
+            .following__top 
+                img(src="./img/following-top-1.webp" width="400" height="400" alt="Following image 1")
+                img(src="./img/following-top-2.webp" width="400" height="400" alt="Following image 2")
+                img(src="./img/following-top-3.webp" width="400" height="400" alt="Following image 3")
+                img(src="./img/following-top-4.webp" width="400" height="400" alt="Following image 4")
+            .following__content
+                .wrapper
+                    .following__item.following__item-1  
+                        a(href="https://twitter.com/fitnesso") 
+                            img(src="./img/twitter.webp" width="52" height="52" alt="Twitter logo")
+                            span.following__item-name @fitnesso
+                    .following__item.following__item-2  
+                        a(href="https://instagram.com/fitnesso") 
+                            img(src="./img/instagram.webp" width="52" height="52" alt="Twitter logo")
+                            span.following__item-name @fitnesso
+                    .following__item.following__item-3  
+                        a(href="https://indeed.com/fitnesso") 
+                            img(src="./img/indeed.webp" width="52" height="52" alt="Twitter logo")
+                            span.following__item-name Fitnesso
+                    .following__item.following__item-4  
+                        a(href="https://youtube.com/Fitnesso") 
+                            img(src="./img/youtube.webp" width="52" height="52" alt="Twitter logo")
+                            span.following__item-name /Fitnesso
+            .following__bottom
+                img(src="./img/following-bottom-1.webp" width="400" height="400" alt="Following image 1")
+                img(src="./img/following-bottom-2.webp" width="400" height="400" alt="Following image 2")
+                img(src="./img/following-bottom-3.webp" width="400" height="400" alt="Following image 3")
+                img(src="./img/following-bottom-4.webp" width="400" height="400" alt="Following image 4")

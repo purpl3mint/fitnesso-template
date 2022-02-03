@@ -1,0 +1,23 @@
+@mixin roboto-normal($fontSize, $lineHeight){
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+@mixin red-hat-display-normal($fontSize, $lineHeight){
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+@mixin permanent-marker-normal($fontSize, $lineHeight){
+  font-family: 'Permanent Marker', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
