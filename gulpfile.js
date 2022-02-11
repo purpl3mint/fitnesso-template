@@ -12,7 +12,8 @@ const favicon = require('./gulp/favicon')
 const criticalGen = require('./gulp/critical')
 
 
-const build = gulp.series(cleanBuild, pug2html, normalize, styles, script, imageMinify, favicon, criticalGen)
+//const build = gulp.series(cleanBuild, pug2html, normalize, styles, script, imageMinify, favicon, criticalGen)
+const build = gulp.series(cleanBuild, pug2html, normalize, styles, script, imageMinify, favicon)
 
 module.exports.start = gulp.series(build)
 
