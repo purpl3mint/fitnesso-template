@@ -1,3 +1,77 @@
-a {
-  text-decoration: none;
+.coach {
+  padding-top: 91px;
+  padding-bottom: 150px;
+  background-color: $grey-3;
+
+  & .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__photo {
+    margin-right: 80px;
+  }
+
+  &__title {
+    margin-bottom: 0;
+    color: $grey-1;
+    @include permanent-marker-normal(64px, 70px);
+  }
+
+  &__content {
+    width: 600px;
+    margin-top: 118px;
+    color: $blue-1;
+  }
+
+  &__greetings {
+    display: block;
+    margin-bottom: 32px;
+    @include red-hat-display-normal(14px, 22px);
+  }
+
+  &__attention {
+    display: block;
+    width: 552px;
+    margin-bottom: 31px;
+    @include roboto-normal(72px, 79px);
+  }
+
+  &__info {
+    display: block;
+    width: 496px;
+    margin-bottom: 25px;
+    @include red-hat-display-normal(20px, 36px);
+  }
+}
+
+.coach-stats {
+  background-color: $blue-1;
+  padding-top: 50px;
+  padding-bottom: 122px;
+  color: white;
+
+  & .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 151px;
+    padding-left: 151px;
+  }
+
+  &__big {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    @include roboto-normal(28px, 33px);
+  }
+
+  &__small {
+    margin: 0 auto;
+    @include red-hat-display-normal(14px, 22px);
+  }
 }
