@@ -3,50 +3,50 @@
   padding-bottom: 100px;
   background-color: $blue-1;
   color: white;
-}
 
-.footer__contents {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 50px;
-} 
+  &__contents {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  } 
 
-.footer__logo {
-  margin-right: 331px;
-}
+  &__logo {
+    margin-right: 331px;
+  }
 
-.footer__contacts {
-  display: flex;
-  flex-direction: column;
-  width: 422px;
-  margin-right: 50px;
-}
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    width: 422px;
+    margin-right: 50px;
+  }
 
-.footer__explore {
-  display: flex;
-  flex-direction: column;
-}
+  &__explore {
+    display: flex;
+    flex-direction: column;
+  }
 
-.footer__title {
-  color: white;
-  @include red-hat-display-normal(14px, 22px);
-  margin-bottom: 14px;
-}
+  &__title {
+    color: white;
+    @include red-hat-display-normal(14px, 22px);
+    margin-bottom: 14px;
+  }
 
-.footer__mail {
-  color: white;
-  @include roboto-normal(27px, 48px);
-  margin-bottom: 20px;
-}
+  &__mail {
+    color: white;
+    @include roboto-normal(27px, 48px);
+    margin-bottom: 20px;
+  }
 
-.footer__link {
-  color: white;
-  @include roboto-normal(18px, 32px);
-  margin-bottom: 5px;
-}
+  &__link {
+    color: white;
+    @include roboto-normal(18px, 32px);
+    margin-bottom: 5px;
+  }
 
-.footer__payments {
-  & img {
-    margin-right: 65px;
+  &__payments {
+    & img {
+      margin-right: 65px;
+    }
   }
 }
